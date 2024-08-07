@@ -10,7 +10,7 @@ class TuringEquationTest {
         val foo = TuringEquation()
         val isTuringEquation = foo::isTuringEquation
 
-        assertEquals(false, isTuringEquation("73+42=16"))
+        assertEquals(true, isTuringEquation("73+42=16"))
         assertEquals(false, isTuringEquation("5+8=13"))
         assertEquals(true, isTuringEquation("10+20=30"))
         assertEquals(true, isTuringEquation("0001000+000200=00030"))
