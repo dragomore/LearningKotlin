@@ -13,5 +13,6 @@ class ShortestWordTest {
         assertEquals( 3, findShort( "String about nature two" ) )
         assertEquals( 1, findShort( "Today i wash my cloth" ) )
         assertEquals( 9, findShort( "Wednesday Wednesdayyyyy" ) )
+        assertEquals( 0, findShort( " " ) )
     }
 }
