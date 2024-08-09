@@ -7,8 +7,8 @@ class GetMiddleCharacter {
         val wordLength = word.length
         val middleCharIdx = wordLength / 2
         return if( word.length % 2 == 0 ) {
-            "${word[middleCharIdx - 1]}${word[middleCharIdx / 2]}"
+            "${word[middleCharIdx - 1]}${word[middleCharIdx]}"
         } else
-            word[wordLength / 2].toString()
+            word[middleCharIdx].toString()
     }
 }
