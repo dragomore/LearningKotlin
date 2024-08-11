@@ -10,10 +10,10 @@ class VowelCountTest {
         val foo = VowelCount()
         val getCount = foo::getCount
 
-//        assertEquals(5, getCount("abracadabra"))
-//        assertEquals(1, getCount("test"))
-//        assertEquals(3, getCount("example"))
-//        assertEquals(11, getCount("kfewdyaceollfiglgjzexhriiwjstmfoqzjfzmqzizin"))
+        assertEquals(5, getCount("abracadabra"))
+        assertEquals(1, getCount("test"))
+        assertEquals(3, getCount("example"))
+        assertEquals(11, getCount("kfewdyaceollfiglgjzexhriiwjstmfoqzjfzmqzizin"))
         assertEquals(4, getCount("pear tree"))
     }
 }
