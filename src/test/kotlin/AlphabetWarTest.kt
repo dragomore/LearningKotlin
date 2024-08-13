@@ -10,7 +10,7 @@ class AlphabetWarTest {
         val foo = AlphabetWar()
         val alphabetWar = foo::alphabetWar
 
-//        assertEquals("Right side wins!", alphabetWar("z"))
+        assertEquals("Right side wins!", alphabetWar("z"))
         assertEquals("Let's fight again!", alphabetWar("zdqmwpbs"))
         assertEquals("Right side wins!", alphabetWar("zzzzs"))
         assertEquals("Left side wins!", alphabetWar("wwwwww"))
