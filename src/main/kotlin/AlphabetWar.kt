@@ -17,7 +17,7 @@ class AlphabetWar {
         val leftSideWins = "Left side wins!"
         val rightSideWins = "Right side wins!"
         val draw = "Let's fight again!"
-        val battleResult = getBattleResult( fight, leftSide, rightSide )
+        val battleResult = getSideScore( fight, leftSide ) - getSideScore( fight, rightSide )
 
         if( battleResult == 0 )
             return draw
@@ -27,9 +27,7 @@ class AlphabetWar {
         return rightSideWins
     }
 
-    private fun getBattleResult( str: String, leftScore: Map<Char, Int>, rightScore: Map<Char, Int> ): Int{
-        val leftSidePower = str.filter { it in leftScore }.sumOf{ leftScore[it] ?: 0 }
-        val rightSidePower = str.filter{ it in rightScore }.sumOf{ rightScore[it] ?: 0 }
-        return leftSidePower - rightSidePower
+    private fun getSideScore( str: String, sideScore: Map<Char, Int> ): Int{
+        return str.filter { it in sideScore }.sumOf{ sideScore[it] ?: 0 }
     }
 }
