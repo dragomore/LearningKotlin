@@ -14,5 +14,6 @@ class AlphabetWarTest {
         assertEquals("Let's fight again!", alphabetWar("zdqmwpbs"))
         assertEquals("Right side wins!", alphabetWar("zzzzs"))
         assertEquals("Left side wins!", alphabetWar("wwwwww"))
+        assertEquals("Let's fight again!", alphabetWar(""))
     }
 }

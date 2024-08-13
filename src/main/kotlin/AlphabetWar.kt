@@ -23,6 +23,7 @@ class AlphabetWar {
             return draw
         if( battleResult > 0 )
             return leftSideWins
+
         return rightSideWins
     }
 
