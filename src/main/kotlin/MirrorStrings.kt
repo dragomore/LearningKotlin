@@ -12,7 +12,6 @@ class MirrorStrings {
     }
     fun horMirror( str: String ): String {
         return str.split("\n" )
-            .map{ it }
             .reversed()
             .joinToString { it }
             .replace(" ","" )
