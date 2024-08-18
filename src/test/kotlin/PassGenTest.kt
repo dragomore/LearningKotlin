@@ -18,7 +18,7 @@ class PassGenTest {
         val pass = generatePassword( 35 )
         if( !regex.matches( pass ) )
             isPasswordContainsOtherChars = true
-        assertEquals( false, isPasswordContainsOtherChars )
+        assertFalse( isPasswordContainsOtherChars )
 
         assertTrue( pass.isNotEmpty() )
     }
