@@ -10,6 +10,7 @@ class AlphaSeqTest {
         val foo = AlphaSeq()
         val alphaSeq = foo::alphaSeq
 
+        assertEquals("A,Bb,Bb,Iiiiiiiii,Llllllllllll,Llllllllllll,Mmmmmmmmmmmmm,Mmmmmmmmmmmmm,Ooooooooooooooo,Pppppppppppppppp,Qqqqqqqqqqqqqqqqq,Tttttttttttttttttttt,Tttttttttttttttttttt,Vvvvvvvvvvvvvvvvvvvvvv,Wwwwwwwwwwwwwwwwwwwwwww,Wwwwwwwwwwwwwwwwwwwwwww,Wwwwwwwwwwwwwwwwwwwwwww,Wwwwwwwwwwwwwwwwwwwwwww,Zzzzzzzzzzzzzzzzzzzzzzzzzz", alphaSeq("QZWALwowWvlPtbmtmBi"))
         assertEquals("Eeeee,Ggggggg,Llllllllllll,Nnnnnnnnnnnnnn,Nnnnnnnnnnnnnn,Pppppppppppppppp,Qqqqqqqqqqqqqqqqq,Rrrrrrrrrrrrrrrrrr,Uuuuuuuuuuuuuuuuuuuuu,Xxxxxxxxxxxxxxxxxxxxxxxx,Zzzzzzzzzzzzzzzzzzzzzzzzzz", alphaSeq("ZpglnRxqenU"))
         assertEquals("Bb,Eeeee,Ffffff,Ffffff,Ggggggg,Llllllllllll,Nnnnnnnnnnnnnn,Sssssssssssssssssss,Yyyyyyyyyyyyyyyyyyyyyyyyy,Yyyyyyyyyyyyyyyyyyyyyyyyy,Yyyyyyyyyyyyyyyyyyyyyyyyy", alphaSeq("NyffsGeyylB"))
         assertEquals("Bb,Jjjjjjjjjj,Kkkkkkkkkkk,Mmmmmmmmmmmmm,Ooooooooooooooo,Qqqqqqqqqqqqqqqqq,Rrrrrrrrrrrrrrrrrr,Tttttttttttttttttttt,Uuuuuuuuuuuuuuuuuuuuu,Uuuuuuuuuuuuuuuuuuuuu,Vvvvvvvvvvvvvvvvvvvvvv", alphaSeq("MjtkuBovqrU"))
