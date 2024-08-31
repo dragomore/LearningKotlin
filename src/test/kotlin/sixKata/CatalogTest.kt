@@ -60,6 +60,7 @@ class CatalogTest {
         val foo = Catalog()
         val catalog = foo::catalog
 
+        assertEquals("Nothing", catalog("","") )
         assertEquals("ladder > prx: $112 qty: 12", catalog( s, "ladder" ) )
         assertEquals("table saw > prx: $1099.99 qty: 5\nsaw > prx: $9 qty: 10\nsaw for metal > prx: $13.80 qty: 32", catalog( s, "saw") )
         assertEquals("wood pallet > prx: $65 qty: 21", catalog( s, "wood pallet" ) )

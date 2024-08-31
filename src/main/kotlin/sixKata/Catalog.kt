@@ -10,6 +10,9 @@ class Catalog {
         // Strings that contains given article
         val filteredString = stringList.filter{ it.substringAfter( NAME_TAG_OPEN ).substringBefore( NAME_TAG_CLOSE ).contains( article ) }
             .toList()
+        // If we have not included filter word in list - return Nothing
+        if( filteredString.isEmpty() )
+            return "Nothing"
         // Return string
         val returnString = StringBuilder()
         // Generating every string for output pattern
