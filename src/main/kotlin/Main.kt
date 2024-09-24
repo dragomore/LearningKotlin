@@ -1,3 +1,8 @@
 package org.example
 
-fun main() {}
+import org.example.nba.Searcher
+
+fun main() {
+    val horrorChanceSearch = Searcher()
+    horrorChanceSearch.getHorrorViewChance()
+}
