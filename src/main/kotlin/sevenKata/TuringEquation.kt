@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class TuringEquation {
     fun isTuringEquation( string: String ): Boolean{

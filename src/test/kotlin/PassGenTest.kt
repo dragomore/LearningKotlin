@@ -1,4 +1,4 @@
-import org.example.PassGen
+import org.example.sevenKata.PassGen
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

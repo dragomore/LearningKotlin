@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class MyLanguages {
     fun myLanguages( results: Map<String, Int> ): List<String>{

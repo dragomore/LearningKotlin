@@ -1,4 +1,4 @@
-import org.example.JDBCUrl
+import org.example.sevenKata.JDBCUrl
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

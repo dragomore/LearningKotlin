@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class AlphabetWar {
     fun alphabetWar(fight: String): String {

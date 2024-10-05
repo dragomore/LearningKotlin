@@ -1,4 +1,4 @@
-import org.example.Screen
+import org.example.sevenKata.Screen
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

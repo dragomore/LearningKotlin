@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class MirrorStrings {
     fun oper( function: ( String ) -> String , s: String): String = function( s )

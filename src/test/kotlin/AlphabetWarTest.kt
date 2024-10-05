@@ -1,4 +1,4 @@
-import org.example.AlphabetWar
+import org.example.sevenKata.AlphabetWar
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

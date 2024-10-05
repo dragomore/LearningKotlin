@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class Screen {
     fun findScreenHeight( width: Int, ratio: String ): String {

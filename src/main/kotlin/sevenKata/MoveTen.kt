@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class MoveTen {
     fun moveTen( s: String ): String{

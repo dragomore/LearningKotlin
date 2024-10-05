@@ -1,4 +1,4 @@
-import org.example.TuringEquation
+import org.example.sevenKata.TuringEquation
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

@@ -1,4 +1,4 @@
-import org.example.SignsCount
+import org.example.sevenKata.SignsCount
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

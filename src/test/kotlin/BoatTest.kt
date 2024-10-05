@@ -1,4 +1,4 @@
-import org.example.Boat
+import org.example.sevenKata.Boat
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

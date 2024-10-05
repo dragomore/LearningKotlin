@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class AltCap {
     fun capitalize( text: String ): List<String> =  listOf( capitalizeLetters( text, "even") , capitalizeLetters( text, "odd") )

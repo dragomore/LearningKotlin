@@ -1,4 +1,4 @@
-import org.example.AltCap
+import org.example.sevenKata.AltCap
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

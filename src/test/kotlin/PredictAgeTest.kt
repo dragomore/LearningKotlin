@@ -1,4 +1,4 @@
-import org.example.PredictAge
+import org.example.sevenKata.PredictAge
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

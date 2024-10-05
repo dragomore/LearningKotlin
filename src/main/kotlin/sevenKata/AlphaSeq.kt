@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class AlphaSeq {
     fun alphaSeq( str: String ): String {

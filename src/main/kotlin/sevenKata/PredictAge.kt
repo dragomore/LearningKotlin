@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 import kotlin.math.sqrt
 

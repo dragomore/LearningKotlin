@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class ShortestWord {
     fun findShort( string: String ): Int{
