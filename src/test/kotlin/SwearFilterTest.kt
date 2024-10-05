@@ -1,4 +1,4 @@
-import org.example.SwearFilter
+import org.example.sevenKata.SwearFilter
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

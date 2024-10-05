@@ -1,4 +1,4 @@
-import org.example.GetMiddleCharacter
+import org.example.sevenKata.GetMiddleCharacter
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

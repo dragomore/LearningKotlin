@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class SignsCount {
     fun catchSignChange(arr: Array<Int>): Int {

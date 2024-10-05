@@ -1,4 +1,4 @@
-import org.example.ShortestWord
+import org.example.sevenKata.ShortestWord
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

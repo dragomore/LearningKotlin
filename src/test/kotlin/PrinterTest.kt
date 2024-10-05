@@ -1,4 +1,4 @@
-import org.example.Printer
+import org.example.sevenKata.Printer
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

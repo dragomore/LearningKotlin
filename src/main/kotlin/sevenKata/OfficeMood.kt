@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class OfficeMood {
     fun outed( meet: Map<String, Int>, boss: String ): String{

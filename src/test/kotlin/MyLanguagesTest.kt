@@ -1,4 +1,4 @@
-import org.example.MyLanguages
+import org.example.sevenKata.MyLanguages
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

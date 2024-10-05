@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class GetMiddleCharacter {
     fun getMiddle( word: String ): String{

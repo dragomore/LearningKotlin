@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class Printer {
     fun printerErrors( string: String ): String{

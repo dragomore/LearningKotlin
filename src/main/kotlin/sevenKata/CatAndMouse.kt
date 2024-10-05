@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class CatAndMouse {
     fun catMouse( s: String ): String {

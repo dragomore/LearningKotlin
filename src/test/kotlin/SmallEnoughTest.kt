@@ -1,4 +1,4 @@
-import org.example.SmallEnough
+import org.example.sevenKata.SmallEnough
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

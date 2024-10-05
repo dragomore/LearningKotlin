@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class SwearFilter {
     fun filter(sentence: String, dictionary: List<String>, replaceWith: String?): String{

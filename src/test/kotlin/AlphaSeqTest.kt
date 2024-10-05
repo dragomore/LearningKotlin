@@ -1,4 +1,4 @@
-import org.example.AlphaSeq
+import org.example.sevenKata.AlphaSeq
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class SplitString {
     fun splitString( string: String ): List<String>{

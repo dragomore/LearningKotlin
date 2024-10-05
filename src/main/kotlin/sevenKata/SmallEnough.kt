@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class SmallEnough {
     fun smallEnough( a : IntArray, limit : Int ): Boolean {

@@ -1,4 +1,4 @@
-package org.example
+package org.example.sevenKata
 
 class Boat {
     fun fireFight(s: String): String =
